@@ -1,0 +1,34 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.calculator{
+    background-color: darkgrey;
+    border: dimgray;
+    border-radius: 2px;
+    width: 400px;
+}
+
+.calculator-screen{
+    width: 90%;
+    height: 50px;
+    margin: 10px auto 10px auto;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: large;
+}
+
+.equals-button{
+    background-color: steelblue;
+}
+
+.clear-button{
+    width: 90%;
+    height: 50px;
+    background-color: coral;
+}
