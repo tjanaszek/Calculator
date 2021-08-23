@@ -15,12 +15,9 @@ test('Update the screen after choosing an operation ', ()=>{
   const calculator = new Calculator(previousOperandScreen, currentOperandScreen)
 
   calculator.currentOperand ='25'
-  // calculator.operation =''
   calculator.chooseOperation('+')
   calculator.updateScreen()
   
-  // calculator.previousOperandScreen.innerText = ""
-
   expect(calculator.previousOperandScreen.innerText).toBe('25 +')
 
 })
