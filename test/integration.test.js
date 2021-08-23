@@ -3,7 +3,7 @@
 
  const {Calculator} = require('../www/calculator')
 
-test('Compute - does not divide by 0', ()=>{
+test('Click the butttons: 2, x, 3, +, 8, =', ()=>{
     document.body.innerHTML = 
     '<div class="calculator-screen" >'+
       '<div class="previous-operand"></div>'+
