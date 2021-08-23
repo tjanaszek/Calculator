@@ -1,10 +1,3 @@
-/**
- * @jest-environment jsdom
- */
-
- const { test, expect } = require('@jest/globals')
-
-
  const {Calculator} = require('../www/calculator')
 
 test('Compute - does not divide by 0', ()=>{
@@ -26,7 +19,7 @@ test('Compute - does not divide by 0', ()=>{
         calculator.updateScreen()
     })
     numberButton.click()
-    // calculator.compute()
+
     expect(calculator.currentOperand).toEqual('1')
       
 })
