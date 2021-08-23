@@ -1,6 +1,3 @@
- const { test, expect } = require('@jest/globals')
-
-
  const {Calculator} = require('../www/calculator')
 
 test('Click the butttons: 2, x, 3, +, 8, =', ()=>{
